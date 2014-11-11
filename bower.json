@@ -1,0 +1,23 @@
+{
+  "name": "leanlogics.com",
+  "version": "0.0.0",
+  "homepage": "https://github.com/dawid-sklodowski/leanlogics.com",
+  "authors": [
+    "Dawid Sklodowski <dawid.sklodowski@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.1"
+  }
+}
