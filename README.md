@@ -8,3 +8,7 @@ For local development clone this repository and then start server inside of it:
 ``` bundle exec jekyll serve ```
 
 Open you browser and point it to: ``` localhost:4000 ```
+
+#### Resources
+
+* [Jekyll documentation](http://jekyllrb.com/docs/home/)
