@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: Arial, sans-serif, Helvetica;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -23,6 +23,10 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+$header-bg-color:  #0B0C13;
+$darklogo-front-color: #FF6078;
+$darklogo-back-color: #FF3020;
 
 
 
