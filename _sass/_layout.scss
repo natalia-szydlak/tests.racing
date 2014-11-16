@@ -1,3 +1,26 @@
+.site-header {
+  height: 64px;
+  background-color: $header-bg-color;
+
+  a.navbar-brand {
+    padding: 20 0;
+    img {
+      width: 155px;
+      height: 36px;
+    }
+  }
+  li a {
+    color: $darklogo-front-color;
+    font-size: $base-font-size;
+    padding: 22px 15px;
+    &:hover, &:active {
+      color: $darklogo-back-color;
+      background-color: lighten($header-bg-color, 10%) !important;
+    }
+  }
+}
+
+
 /**
  * Site footer
  */
