@@ -2,20 +2,84 @@
 layout: default
 ---
 
-<div class="home">
+<div class="home" id="home">
+  <div id="carousel-outer" class="center-block">
+    <div id="carousel" class="carousel slide center-block" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+      </ol>
 
-  <h1 class="page-heading">Posts</h1>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <p class="first">Embrace change</p>
+          <p class="second">Lean design is ready for your new requirements</p>
+        </div>
+        <div class="item">
+          <p class="first">Amplify learning</p>
+          <p class="second"><span class="darken">(ab)</span>Test your ideas as soon as possible</p>
+        </div>
+        <div class="item">
+          <p class="first">We enjoy sharing knowledge and experience</p>
+          <p class="second">Border between you and us blends easily</p>
+        </div>
+        <div class="item">
+          <p class="first">We value simplicity</p>
+          <p class="second">Simple means performance and quality</p>
+        </div>
+      </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  </div>
+</div>
+<hr />
+<div id="about">
+  <h2 class="center-block">About us</h2>
+  <p>
+    LeanLogics team consists of professional Ruby on Rails developers carefully selected on the Lesser Poland market, mainly from Cracow.
+  </p>
+  <p>
+    For body leasing service we dedicate only software engineers with extensive experience (at least 4 years of real life project experience).
+  </p>
 
+  <p>
+  The working time and competences are efficiently fulfilled with the support of the team. You don’t worry about sick-leaves, vacations, labor law, sourcing, contract termination, motivation, working environment etc. You pay only per efficient hour of development work.
+  </p>
+  <p>
+
+  Our approach to the project consist of Lean, TDD and SCRUM. We often develop in pairs.
+  </p>
+  <p>
+  Very often we blend the border between our team and our your team (clause against hiring employs is required). This results not only in better communication but also in knowledge and experiences exchange. We insist on a good contact with customer during remote work and suggest daily verbal catch-ups or working on customers side.
+  </p>
+  <p>
+
+  By default we develop with the use of our own programing environment but working on our client’s stuff is also possible.
+  </p>
+  <p>
+
+  Our engineers are skilled in broad variety of technologies. Among many we highlight: Ruby on Rails, AngularJS, Node.js, jQuery, SQL or NoSQL databases. Ensured skills came always form lead roles in development of real working web services and real working server solutions.
+  </p>
+  <p>
+    <img src="/images/devices.png" class="center-block" />
+</div>
+
+<hr />
+<div id="contact">
+  <h2 class="center-block">Contact us</h2>
+  <a href="mailto:contact@leanlogics.com" class="center-block text-center">contact@leanlogics.com</a>
 </div>

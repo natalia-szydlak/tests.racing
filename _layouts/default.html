@@ -3,18 +3,19 @@
 
   {% include head.html %}
 
-  <body>
+  <body data-spy="scroll" data-target="#navbar-menu">
 
     {% include header.html %}
 
     <div class="page-content">
       <div class="container">
         {{ content }}
+        <div class="footer">
+          <hr />
+          &copy; Copyright 2014 LeanLogics. All Rights Reserved.
+        </div>
       </div>
     </div>
-
-    {% include footer.html %}
-
   </body>
 
 </html>
