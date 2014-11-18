@@ -37,9 +37,12 @@
 .site-header {
   height: 64px;
   background-color: $header-bg-color;
-
-  .navbar-header {
+  background-image: linear-gradient(to bottom, darken($header-bg-color, 10%) 0,lighten($header-bg-color, 12%) 90%);
+  .container {
+    background-color: inherit;
+    background-image: inherit;
   }
+
   a.navbar-brand {
     padding: 20 0;
     img {
@@ -58,11 +61,19 @@
     color: lighten($header-bg-color, 75%);
     font-size: $base-font-size;
     padding: 24px 15px 20px 15px;
-    text-shadow: 0 0 0;
+    text-shadow: none;
   }
   li.active a, li a:hover {
     color: $darklogo-back-color;
-    background-color: lighten($header-bg-color, 10%) !important;
+    background-color: lighten($header-bg-color, 12%) !important;
+  }
+  .navbar-toggle {
+    background-color: lighten($header-bg-color, 15%);
+    margin-top: 17px;
+
+    .icon-bar {
+      background-color: lighten($header-bg-color, 60%);
+    }
   }
 }
 #home{
