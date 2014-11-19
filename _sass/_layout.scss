@@ -1,12 +1,11 @@
 #carousel-outer {
-  width: 601px;
   height: 404px;
+  max-width: 601px;
   background: url('/images/macbook.png');
   padding-top: 23px;
   #carousel {
-    background-color: lighten($header-bg-color, 10%);
     position: relative;
-    width: 541px;
+    max-width: 541px;
     height: 338px;
     .carousel-indicators li {
       border-color: lighten($header-bg-color, 30%);
