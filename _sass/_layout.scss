@@ -1,10 +1,8 @@
 #carousel-outer {
   width: 802px;
   height: 461px;
-  background: url('/images/macbook.png');
   padding-top: 28px;
   @media (max-width: 630px) {
-    background: url('/images/macbook-small.png');
     padding-top: 23px;
     width: 100%;
     height: 300px;
