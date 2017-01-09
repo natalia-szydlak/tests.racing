@@ -58,7 +58,7 @@
   }
 }
 .site-header {
-  height: 64px;
+  height: 100px;
   background-color: $header-bg-color;
   background-image: linear-gradient(to bottom, darken($header-bg-color, 10%) 0,lighten($header-bg-color, 12%) 90%);
   .container {
@@ -70,7 +70,7 @@
     padding: 20 0;
     img {
       width: 155px;
-      height: 36px;
+      height: 100px;
     }
   }
   .slogan {
