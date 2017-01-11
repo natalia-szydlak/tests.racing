@@ -13,13 +13,8 @@ body {
 }
 
 .navbar img {
-  width: 15%;
-  height: 15%;
-}
-
-.container-fluid {
-  padding-left: 0px;
-  padding-right: 0px;
+  width: 20%;
+  height: 20%;
 }
 
 #main_img {
