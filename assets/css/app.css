@@ -19,8 +19,13 @@ body {
 
 #main_img {
   width: 100%;
-  padding-left: -15px;
-  padding-right: -15px;
+  position: relative;
+}
+#main_img>h2 {
+  position: absolute;
+  top:100px;
+  left:200px;
+  width: 100%;
 }
 
 h2 {
