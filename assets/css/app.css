@@ -1,6 +1,6 @@
 body {
   font-family: 'Open sans',sans-serif;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .navbar {
@@ -17,11 +17,21 @@ body {
   height: 15%;
 }
 
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 #main_img {
   width: 100%;
 }
 
-h2, footer {
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+footer {
   background-color: #333;
   color: #ddd;
   padding: 20px;
