@@ -22,11 +22,10 @@ body {
   position: relative;
 }
 #main_img>h2 {
-  color: #ffffff;
   font-size: 2em;
   position: absolute;
   top:20%;
-  left:50%;
+  left:80%;
   transform: translate(-50%, -50%);
 }
 
